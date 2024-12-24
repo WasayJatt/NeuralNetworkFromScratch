@@ -21,14 +21,14 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
-    cd YourRepoName
+   git clone https://github.com/WasayJatt/NeuralNetworkFromScratch.git
+    cd NeuralNetworkFromScratch
     ```
 
 2. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install numpy matplotlib pandas 
     ```
 
 ---
@@ -40,8 +40,8 @@ To set up the project, follow these steps:
 1. Clone the repository if not already done:
 
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
-    cd YourRepoName
+   git clone https://github.com/WasayJatt/NeuralNetworkFromScratch.git
+    cd NeuralNetworkFromScratch
     ```
 
 2. Execute the script:
