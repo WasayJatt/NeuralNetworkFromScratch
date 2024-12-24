@@ -1,40 +1,47 @@
 # Handwritten Digit Classification With Neural Network From Scratch
 
-## Overview
+This project demonstrates the implementation of a simple neural network from scratch in Python for classifying handwritten digits using the MNIST dataset. It avoids using pre-built libraries like TensorFlow or PyTorch, offering a deeper understanding of how neural networks operate at the core level.
 
-This project demonstrates a custom implementation of a Neural Network for classifying handwritten digits, built entirely from scratch without using high-level libraries like TensorFlow or PyTorch.
+---
 
 ## Features
 
-- **Fully Custom Implementation**: Neural network designed and coded manually.
-- **Digit Classification**: Recognizes handwritten digits with high accuracy.
-- **Interactive Visualizations**: Provides insights into the training process.
+- Implementation of forward and backward propagation
+- Activation functions such as ReLU and softmax
+- Categorical cross-entropy loss
+- Gradient descent optimization
+- Evaluation metrics for accuracy
 
-## Technologies Used
+---
 
-- **Python**: Core programming language.
-- **NumPy**: For efficient numerical computations.
-- **Matplotlib**: For visualizing training metrics.
+## Installation
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- NumPy
-- Matplotlib
-
-Install dependencies with:
-
-```bash
-pip install -r requirements.txt
-### Running the Project
+To set up the project, follow these steps:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/WasayJatt/NeuralNetworkFromScratch.git
-    cd NeuralNetworkFromScratch
+    git clone https://github.com/YourUsername/YourRepoName.git
+    cd YourRepoName
+    ```
+
+2. Install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+## Usage
+
+### Running the Project
+
+1. Clone the repository if not already done:
+
+    ```bash
+    git clone https://github.com/YourUsername/YourRepoName.git
+    cd YourRepoName
     ```
 
 2. Execute the script:
@@ -43,12 +50,39 @@ pip install -r requirements.txt
     python main.py
     ```
 
-### Example Output
+---
 
-Add a sample image or training visualization here.
+## Dataset
+
+The project uses the MNIST dataset, a benchmark dataset for handwritten digit classification. It consists of:
+
+- **Training Data**: 60,000 images (28x28 grayscale)
+- **Testing Data**: 10,000 images (28x28 grayscale)
+
+The dataset is automatically downloaded from `tensorflow.keras.datasets`.
+
+---
+
+## Example Output
+
+Add a sample image or training visualization here (e.g., confusion matrix, accuracy vs. epochs graph, or sample predictions).
+
+---
 
 ## Roadmap
 
-- Enhance accuracy by tuning hyperparameters.
-- Add support for other datasets.
-- Improve visualization features.
+- Enhance accuracy by tuning hyperparameters
+- Add support for additional datasets
+- Improve visualization features
+- Implement a web interface for easy access
+- Include transfer learning for performance enhancement
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project, as long as proper credit is given to the author.
+
+For more details, refer to the [LICENSE](./LICENSE) file.
+
+---
